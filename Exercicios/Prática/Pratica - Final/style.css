@@ -1,0 +1,37 @@
+
+@charset "UTF-8";
+
+body{
+background: blue;
+
+
+}
+h1{
+color: blanchedalmond;
+
+
+}
+H2{
+    color: blanchedalmond
+    
+}
+
+p{
+    color: blanchedalmond;
+    
+}
+a{
+    
+    color: blanchedalmond;
+}
+ol{
+    color: blanchedalmond;
+}
+script{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+section{
+    background: rgb(136, 159, 179);
+}

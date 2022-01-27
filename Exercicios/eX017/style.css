@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: rgb(43, 45, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(248, 248, 250);
+    text-decoration: underline;
+    
+}
+h2{
+    color: rgb(253, 253, 253);
+
+}
+p{
+    color: aliceblue;
+}
+a{
+    color: rgb(248, 242, 241);
+}
+

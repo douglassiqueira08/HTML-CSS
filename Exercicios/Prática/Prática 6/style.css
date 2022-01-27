@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zen+Old+Mincho:wght@700&display=swap');
+body{
+background-color: white;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+
+#gradient{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    background-image: linear-gradient(#10BEC4, #C2FAFE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.itemenu{
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width: 130px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(#10BEC4, #C2FAFE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#nomesite{
+    color: white;
+}
+
+.itemenu:hover{
+    color: white;
+
+}
+#videos{
+
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sobrenos{
+    background-color: white;
+    display: flex;
+    height: 400px;
+    
+
+}
+#topico1{
+    inline-size: auto;
+    display: inline;
+}
+img{
+
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 10%;
+    border-radius: 30px;
+
+}
+P{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+

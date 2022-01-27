@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        
+        #hamb > #ham {
+            display: none;
+        }
+        #hamb:hover > #ham{
+            display: block;
+        }
+        #hamb:hover{
+            color: red;
+        }
+        #bat > #batata{
+            display: none;
+        }
+        #bat:hover > #batata{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exempplo de hover</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div id="hamb">
+        Hamburguer
+        <p id="ham"><img src="imagens/hamburguer.jfif" alt=""></p>
+    </div>
+    <div id="bat">
+        Batata
+        <p id = "batata"><img src="imagens/batata.jpeg" alt=""></p>
+    </div>
+</body>
+</html>
